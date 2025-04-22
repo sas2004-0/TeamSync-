@@ -81,4 +81,17 @@ body {
     color: #88a690;
     font-style: italic;
   }
+  .background-image {
+    background-image: url('ksaao.PNG');
+    background-repeat: no-repeat;
+    background-size: 600px auto; /* ← عرض الصورة 600 بكسل، والارتفاع تلقائي */
+    background-position: top center; /* ← مكان الصورة */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+  }
   
